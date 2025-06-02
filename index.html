@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Авто-Гарант - официальный дилер новых автомобилей</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h1>Авто-Гарант</h1>
+                <p>Официальный дилер</p>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Главная</a></li>
+                    <li><a href="catalog.html">Каталог</a></li>
+                    <li><a href="credit.html">Кредит</a></li>
+                    <li><a href="tradein.html">Trade-In</a></li>
+                    <li><a href="contacts.html">Контакты</a></li>
+                </ul>
+            </nav>
+            <div class="phone">
+                <p>+7 (123) 456-78-90</p>
+                <button class="callback">Заказать звонок</button>
+            </div>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <h2>Новые автомобили от официального дилера</h2>
+            <p>Лучшие условия покупки и гарантийного обслуживания</p>
+            <a href="catalog.html" class="btn">Выбрать автомобиль</a>
+        </div>
+    </section>
+
+    <section class="advantages">
+        <div class="container">
+            <h2>Почему выбирают нас</h2>
+            <div class="advantages-grid">
+                <div class="advantage">
+                    <img src="images/warranty.png" alt="Гарантия">
+                    <h3>Официальная гарантия</h3>
+                    <p>Гарантия от производителя на все новые автомобили</p>
+                </div>
+                <div class="advantage">
+                    <img src="images/delivery.png" alt="Доставка">
+                    <h3>Быстрая доставка</h3>
+                    <p>Возможность доставки автомобиля в любой регион России</p>
+                </div>
+                <div class="advantage">
+                    <img src="images/credit.png" alt="Кредит">
+                    <h3>Выгодный кредит</h3>
+                    <p>Специальные кредитные программы от партнерских банков</p>
+                </div>
+                <div class="advantage">
+                    <img src="images/service.png" alt="Сервис">
+                    <h3>Сервисное обслуживание</h3>
+                    <p>Собственный сервисный центр с оригинальными запчастями</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="featured-cars">
+        <div class="container">
+            <h2>Рекомендуемые модели</h2>
+            <div class="cars-grid">
+                <!-- Автомобиль 1 -->
+                <div class="car-card">
+                    <img src="images/car1.jpg" alt="Toyota Camry">
+                    <h3>Toyota Camry</h3>
+                    <p class="price">от 2 450 000 ₽</p>
+                    <p>Расход: 7.5 л/100км</p>
+                    <a href="car-details.html" class="btn">Подробнее</a>
+                </div>
+                <!-- Автомобиль 2 -->
+                <div class="car-card">
+                    <img src="images/car2.jpg" alt="Hyundai Creta">
+                    <h3>Hyundai Creta</h3>
+                    <p class="price">от 1 850 000 ₽</p>
+                    <p>Расход: 6.8 л/100км</p>
+                    <a href="car-details.html" class="btn">Подробнее</a>
+                </div>
+                <!-- Автомобиль 3 -->
+                <div class="car-card">
+                    <img src="images/car3.jpg" alt="Kia Rio">
+                    <h3>Kia Rio</h3>
+                    <p class="price">от 1 350 000 ₽</p>
+                    <p>Расход: 6.2 л/100км</p>
+                    <a href="car-details.html" class="btn">Подробнее</a>
+                </div>
+            </div>
+            <div class="center">
+                <a href="catalog.html" class="btn">Весь каталог</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="callback-form">
+        <div class="container">
+            <h2>Оставьте заявку на подбор автомобиля</h2>
+            <form id="callbackForm">
+                <input type="text" placeholder="Ваше имя" required>
+                <input type="tel" placeholder="Телефон" required>
+                <select>
+                    <option value="" disabled selected>Выберите марку</option>
+                    <option value="toyota">Toyota</option>
+                    <option value="hyundai">Hyundai</option>
+                    <option value="kia">Kia</option>
+                    <option value="nissan">Nissan</option>
+                </select>
+                <button type="submit" class="btn">Отправить заявку</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-columns">
+                <div class="footer-column">
+                    <h3>Авто-Гарант</h3>
+                    <p>Официальный дилер новых автомобилей в вашем городе. Лучшие условия покупки и обслуживания.</p>
+                </div>
+                <div class="footer-column">
+                    <h3>Контакты</h3>
+                    <p>г. Москва, ул. Автозаводская, 23</p>
+                    <p>+7 (123) 456-78-90</p>
+                    <p>info@avto-garant.ru</p>
+                </div>
+                <div class="footer-column">
+                    <h3>Часы работы</h3>
+                    <p>Пн-Пт: 09:00 - 20:00</p>
+                    <p>Сб-Вс: 10:00 - 18:00</p>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2023 Авто-Гарант. Все права защищены.</p>
+            </div>
+        </div>
+    </footer>
+
+    <div class="modal" id="callbackModal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Заказать звонок</h2>
+            <form id="modalForm">
+                <input type="text" placeholder="Ваше имя" required>
+                <input type="tel" placeholder="Телефон" required>
+                <button type="submit" class="btn">Перезвоните мне</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
