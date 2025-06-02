@@ -360,4 +360,37 @@ footer {
     .hero h2 {
         font-size: 28px;
     }
+        /* Каталог */
+    .catalog {
+        padding: 60px 0;
+    }
+    
+    .filters {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 15px;
+        margin-bottom: 30px;
+    }
+    
+    .filters select {
+        padding: 10px;
+        border-radius: 5px;
+        border: 1px solid #ddd;
+        flex: 1;
+        min-width: 200px;
+    }
+    
+    #carsGrid {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+        gap: 30px;
+    }
+    
+    .no-results {
+        grid-column: 1 / -1;
+        text-align: center;
+        padding: 40px;
+        font-size: 18px;
+        color: #666;
+    }
 }
