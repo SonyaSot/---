@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Каталог автомобилей | Авто-Гарант</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <!-- Тот же header, что и на главной странице -->
+    </header>
+
+    <section class="catalog">
+        <div class="container">
+            <h2>Каталог автомобилей</h2>
+            
+            <div class="filters">
+                <select id="brandFilter">
+                    <option value="">Все марки</option>
+                    <option value="toyota">Toyota</option>
+                    <option value="hyundai">Hyundai</option>
+                    <option value="kia">Kia</option>
+                    <option value="nissan">Nissan</option>
+                </select>
+                
+                <select id="priceFilter">
+                    <option value="">Любая цена</option>
+                    <option value="1">до 1 500 000 ₽</option>
+                    <option value="2">1 500 000 - 2 500 000 ₽</option>
+                    <option value="3">от 2 500 000 ₽</option>
+                </select>
+                
+                <select id="typeFilter">
+                    <option value="">Все типы</option>
+                    <option value="sedan">Седан</option>
+                    <option value="suv">Внедорожник</option>
+                    <option value="hatchback">Хэтчбек</option>
+                </select>
+                
+                <button id="resetFilters" class="btn">Сбросить фильтры</button>
+            </div>
+            
+            <div class="cars-grid">
+                <!-- Автомобили будут загружаться через JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <!-- Тот же footer, что и на главной странице -->
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
